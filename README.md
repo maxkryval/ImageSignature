@@ -2,7 +2,7 @@
 
 ## Method 1
 **Description:** hiding signature in PNG file metadata.<br>
-**Disadvantages:** signature can be found via photo editor application that allows viewing image metadata.<br><br>
+**Disadvantage:** signature can be found via photo editor application that allows viewing image metadata.<br><br>
 
 ## Method 2
 **Description:** hiding signature in image file itself.<br>
