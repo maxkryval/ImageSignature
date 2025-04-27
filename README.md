@@ -1,11 +1,11 @@
 # ImageSignature
 
 ## Method 1
-**Description:** hiding signature in PNG file metadata.<br>
+**Description:** The RSA signature is embedded as additional metadata inside the PNG file.<br>
 **Disadvantage:** signature can be found via photo editor application that allows viewing image metadata.<br><br>
 
 ## Method 2
-**Description:** hiding signature in image file itself.<br>
+**Description:** The RSA signature is appended after the formal end of the PNG file (IEND chunk).<br>
 **Advantage:** signature can be found through either decoding image file through code or special text editors.<br><br>
 
 ## Usage
