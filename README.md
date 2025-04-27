@@ -1,5 +1,11 @@
 # ImageSignature
 
+## Motivation
+Digital signature could be important in numerous areas, some of which are:
+- Secure software distribution
+- Authentication of legal and financial documents
+- Verification of digital art and media ownership
+- Protection of sensitive communications<br>
 ## Method 1
 **Description:** The RSA signature is embedded as additional metadata inside the PNG file.<br>
 **Disadvantage:** signature can be found via photo editor application that allows viewing image metadata.<br><br>
